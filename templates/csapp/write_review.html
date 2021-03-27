@@ -19,9 +19,9 @@
     {% else %}
         <form id="user_form" method="post">
             {% csrf_token %}
-            <table>
-            {{ reviewInfo.reviewForm.as_table }}
-            </table>
+            <p>
+            {{ reviewInfo.reviewForm.as_p }}
+            </p>
             <br><br>
             <button type="submit" class="btn btn-primary" style="display:inline-block">Submit</button>
             <button type="reset"  class="btn btn-primary" style="display:inline-block">Reset</button>
