@@ -5,8 +5,8 @@ The aim of our application is to give new and current students a place to commen
 
 ### Prerequisites
 
-The required packages are contained in the file requirements.txt. To install them  within a newly-created virtual environment use the command
-pip install –r requirements.txt. 
+The required packages are contained in the file requirements.txt. To install them within a newly-created virtual environment use the command
+pip install –r requirements.txt. **Python 3.7** is recommended.
 
 
 ## Built With
