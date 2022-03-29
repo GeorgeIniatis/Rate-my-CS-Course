@@ -14,7 +14,7 @@ Install Dependencies e.g. on Virtual Machine/Server running **Python 3.7**
 
 When you have the required Dependencies for the environment you can then create the database
 
-`$ python manage.py makemigrations`
+`$ python manage.py makemigrations csapp`
 
 `$ python manage.py migrate`
 
