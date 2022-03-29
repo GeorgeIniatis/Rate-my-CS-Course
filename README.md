@@ -2,12 +2,29 @@
 
 The aim of our application is to give new and current students a place to comment, rate and thus help each other choose their computing science courses.
 
+## Running Server Locally
 
-### Prerequisites
+First clone the repository
 
-The required packages are contained in the file requirements.txt. To install them within a newly-created virtual environment use the command
-pip install –r requirements.txt. **Python 3.7** is recommended.
+`$ git clone https://github.com/GeorgeIniatis/Rate-my-CS-Course.git`
 
+Install Dependencies e.g. on Virtual Machine/Server running **Python 3.7**
+
+`$ pip install -r requirements.txt`
+
+When you have the required Dependencies for the environment you can then create the database
+
+`$ python manage.py makemigrations`
+
+`$ python manage.py migrate`
+
+To populate the database with some test data you can use the following (This step can be skipped)
+
+`$ python populate_csapp.py`
+
+Finally run the server
+
+`$ python manage.py runserver`
 
 ## Built With
 
